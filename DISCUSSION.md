@@ -1,0 +1,7 @@
+a. Give one example of something the LLM got wrong in generation and what you had to do to fix it. (Again, even if you do not primarily rely on the LLM to write the code for this assignment, use it anyway in order to answer this question.)
+
+ChatGPT initially assign the variable for current flashcard to null when we played through all 5 flashcards: currentFlashcard.value = null; // No more flashcards, since the currentFlashcard is an object (with problem string, 4 choices, and correct choice index), an error shows up saying "'null' is not assignable to type '{ problem: string; choices: string[]; correctChoiceIndex: number; }'" To fix this, I reset the flashcard index to 0 and assign currentFlashcard's value to be the first flashcard's value. The disadvantage of doing this is we never go to an end playing flashcards, but it doesn't seem like an requirement for this particular assignment, so I will figure this out some later time. Maybe having a flashcard displaying the message "Finished", and terminal the whole thing or let the user choose if they want to restart.
+
+b. Regarding the JSON file you put into the public/ directory in task #2, does it need to be wrapped in a ref for the page to refresh automatically when you edit the file? Why or why not?
+
+I did not explicitly use ref for json data, but the Vue reactivity still seems to work. I think it could be automatically applied.

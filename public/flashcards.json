@@ -1,0 +1,27 @@
+[
+    {
+      "problem": "What is the capital of France?",
+      "choices": ["Berlin", "London", "Paris", "Madrid"],
+      "correctChoiceIndex": 2
+    },
+    {
+      "problem": "What is the capital of Cuba?",
+      "choices": ["Santo Domingo", "Beijing", "Santiago", "Havana"],
+      "correctChoiceIndex": 3
+    },
+    {
+      "problem": "What is the capital of Egypt?",
+      "choices": ["Cairo", "Berlin", "Dublin", "Baghdad"],
+      "correctChoiceIndex": 0
+    },
+    {
+      "problem": "What is the capital of Italy?",
+      "choices": ["Monrovia", "Rome", "Tokyo", "Panama City"],
+      "correctChoiceIndex": 1
+    },
+    {
+      "problem": "What is the capital of China?",
+      "choices": ["Shanghai", "Beijing", "Seoul", "Washington D.C.(bruh....)"],
+      "correctChoiceIndex": 1
+    }
+  ]
