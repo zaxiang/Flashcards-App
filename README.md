@@ -1,5 +1,5 @@
 # Flashcards-App
- a simple Vue flashcards app
+ A Vue Flashcards App
  ![Screenshot](flashcard1.PNG)
  ![Screenshot](flashcard2.PNG)
  ![Screenshot](flashcard3.PNG)
